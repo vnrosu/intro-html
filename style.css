@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+body{
+    background-color: blueviolet;
+}
+h1{
+    background-color: yellowgreen;
+    font-family: Arial; 
+}
+h2{
+    background-color: rgb(255, 0, 149);
+    font-family:Helvetica;
+    font-size: xx-large;
+}
+img{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: double;
+    border-color: chartreuse;
+    margin-left: 300px;
+    padding: 50px 10px 20px 30px  ;
+}
+#hyperlink{
+    background-color: brown;
+}
+ul{
+    background-color: aqua;
+    color: red
+}
+li{
+    background-color: rgb(215, 215, 52);
+    color: green;
+}
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(135, 144, 222);
+}
+.grid-item1{
+ background-color: whitesmoke;
+ padding: 5%;
+ margin: 2px;
+ text-align: center;
+}
+.grid-item2{
+ background-color: black;
+ padding: 5%;
+ color: white;
+ margin: 2px;
+ text-align: center;
+}
