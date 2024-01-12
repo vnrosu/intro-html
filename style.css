@@ -1,7 +1,7 @@
 *{
-    padding: 0;
     margin: 0;
-    text-align: left;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: blueviolet;
@@ -37,19 +37,21 @@ li{
 }
 .grid-container{
     display: inline-grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr ;
+
     background-color: rgb(135, 144, 222);
 }
 .grid-item1{
  background-color: whitesmoke;
  padding: 5%;
  margin: 2px;
- text-align: center;
 }
 .grid-item2{
  background-color: black;
  padding: 5%;
  color: white;
  margin: 2px;
- text-align: center;
+}
+#hyperlink2{
+    background-color: aquamarine;
 }
